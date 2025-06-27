@@ -75,3 +75,9 @@ for (let i = 0; i < numArabicChars; i++) {
     createParticle('arabic');
 }
 
+window.addEventListener('load', () => {
+  document.querySelector('.loader-overlay').style.display = 'none';
+  document.querySelector('.main-content').style.display = 'block';
+  document.body.classList.remove('loading');
+});
+
