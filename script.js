@@ -20,7 +20,7 @@ document.addEventListener('click', (event) => {
 const particleContainer = document.getElementById('particleContainer');
 const numBubbles = 200;
 const numArabicChars = 30;
-const arabicCharacters = ['ا', 'ب', 'علي', 'علي', 'علي', 'ح', 'العربي سهل', 'د', 'سهل جدا', 'ر', 'ز', 'احنا معاك', 'ش', 'احنا معاك', 'ض', 'علي اشرف', 'ظ', 'علي اشرف', 'غ', 'العربي سهل', 'ق', 'ك', 'ل', 'م', 'ن', '100%', 'و', 'ي', 'ت ', 'ح', 'ى', '100%', '100%', '100%', '؟'];
+const arabicCharacters = ['💙','💛','💚','💜','👌','✨️','✨️','✨️','💯','💯','💯','💯','💯','💯','علي','علي','العربي ','سهل','العربي','جدااا','جدااا' ];
 
 function createParticle(type) {
     const particle = document.createElement('div');
