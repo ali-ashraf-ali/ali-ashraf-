@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كيفية الاشتراك</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0; /* Remove padding from body as content will have it */
+            background-color: #ffffff;
+            color: #4CAF50;
+            line-height: 1.6;
+            direction: rtl;
+            text-align: right;
+            display: flex; /* Use flexbox for body */
+            min-height: 100vh; /* Make sure body takes full viewport height */
+        }
+
+        .content-section {
+            flex: 1; /* Takes 1 part of the available space */
+            padding: 20px;
+            overflow-y: auto; /* Adds scroll if content is too long */
+            box-sizing: border-box; /* Include padding in element's total width and height */
+        }
+
+        .image-section {
+            flex: 1; /* Takes 1 part of the available space */
+            background-color: #3eff75; /* Light gray background for image section */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+            background-image: url('image/Cash\ Payment-bro.png'); /* REPLACE WITH YOUR IMAGE PATH */
+            background-size: contain; /* Scale the image to fit without cropping */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        /* Optional: Placeholder text/icon for image section if no image */
+        .image-section img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* Ensures image fits within its container */
+        }
+
+        .image-placeholder {
+            font-size: 2em;
+            color: #ccc;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2196F3;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #2196F3;
+            display: inline-block;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            width: fit-content;
+        }
+        h2 {
+            color: #2196F3;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 1px solid #B0BEC5;
+            padding-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            /* padding-right: 20px; Moved to content-section */
+            /* padding-left: 20px; Moved to content-section */
+        }
+        ul {
+            padding-right: 40px;
+            padding-left: 20px;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            color: #4CAF50;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: #FF7043;
+        }
+        .contact-info {
+            background-color: #E3F2FD;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.2em;
+            font-weight: bold;
+            border: 2px solid #90CAF9;
+            /* margin-right: 20px; Moved to content-section */
+            /* margin-left: 20px; Moved to content-section */
+        }
+        .contact-info p {
+            color: #2196F3;
+            padding: 0;
+            margin: 5px 0;
+        }
+        .contact-info a {
+            color: #1976D2;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: none;
+            border-top: 1px dashed #B0BEC5;
+            margin: 40px 0; /* Adjusted margin as padding is on content-section */
+        }
+
+        /* Media Query for smaller screens: stack sections vertically */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column; /* Stack items vertically */
+            }
+            .image-section {
+                min-height: 300px; /* Give image section a fixed height on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="image-section">
+        <span class="image-placeholder"> </span>
+    </div>
+
+    <div class="content-section">
+        <h1>كيفية الاشتراك</h1>
+
+        <hr>
+
+        <h2>الخطوة 1: دفع الرسوم</h2>
+        <p>يرجى تحويل <strong>110 جنيه مصري</strong> إلى الرقم التالي: <strong>01044686123</strong></p>
+        <p>يمكنك الدفع من خلال:</p>
+        <ul>
+            <li><strong>فوري</strong></li>
+            <li><strong>فودافون كاش</strong></li>
+        </ul>
+
+        <hr>
+
+        <h2>الخطوة 2: تأكيد الدفع والتفعيل</h2>
+        <p>بعد إتمام عملية الدفع، يرجى:</p>
+        <ul>
+            <li>التقاط <strong>صورة واضحة للوصل</strong> (إيصال الدفع).</li>
+            <li>إرسال صورة الوصل إلينا عبر <strong>واتساب فقط</strong> على الرقم: <strong>01044686123</strong></li>
+        </ul>
+
+        <hr>
+
+        <h2>الخطوة 3: انتظار التفعيل</h2>
+        <p>بعد استلامنا للوصل، سيتم تفعيل اشتراكك قريبًا.</p>
+
+        <hr>
+
+        <h2>تواصل معنا</h2>
+        <div class="contact-info">
+            <p>للاستفسارات أو المساعدة، يرجى التواصل معنا عبر <strong>واتساب فقط</strong> على الرقم:</p>
+            <p><a href="https://wa.me/201044686123" target="_blank">01044686123</a></p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
