@@ -42,7 +42,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 30px 30px;
-    background-color: #0000;
+    background-color: #000;
     border-bottom: 1px solid var(--navbar-border-color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     position: fixed;
